@@ -15,9 +15,8 @@ ________________________________________________________________________________
 
 SITE                                            CONTACT
     
-    Standards:  HTML5, CSS3                         Web:     Adrian Unger, staydecent.ca
-    Components: HTML5 shiv, Normalize.css,          Twitter: @staydecent  
-                Respond.js, jQuery                 
+    Standards:  HTML5, CSS3                         Web:     staydecent.ca
+    Components: Managed via Bower                   Twitter: @staydecent           
                               
 ________________________________________________________________________________________________
 ------------------------------------------------------------------------------------------------
