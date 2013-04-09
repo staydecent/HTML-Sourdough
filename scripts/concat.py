@@ -7,7 +7,6 @@ import sys
 CWD = os.path.join(os.getcwd() + '/')
 
 def concat(look, dest, before=[], ignore=[], reg='*.js'):
-  # type safety
   if ',' in look:
     look = look.split(',')
   if ',' in before:
@@ -29,6 +28,10 @@ def concat(look, dest, before=[], ignore=[], reg='*.js'):
   # look in dir
   else:
     iterateFiles = glob(os.path.join(CWD, look + '/') + reg)
+
+  if len(iterateFiles) == 0:
+    print "Nothing to concatenate in {0}".format(look)
+    return
 
   # ordering?
   if len(before) > 0:
