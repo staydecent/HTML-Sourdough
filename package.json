@@ -1,0 +1,22 @@
+{
+  "name": "YourApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/staydecent/HTML-Sourdough.git"
+  },
+  "author": "Adrian Unger",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "nodemon": "~0.7.8"
+  },
+  "dependencies": {
+  }
+}

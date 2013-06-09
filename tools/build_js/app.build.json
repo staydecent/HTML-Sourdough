@@ -1,0 +1,7 @@
+{
+  "sourceRoot": "./",
+  "sources": [
+    "app/main.js"
+  ],
+  "outputPath": "./public/js/app-min.js"
+}

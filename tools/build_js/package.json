@@ -1,0 +1,9 @@
+{
+  "name": "sourdough-build-js",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "adhesive": "git://github.com/staydecent/adhesive.git"
+  }
+}
